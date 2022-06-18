@@ -1,4 +1,5 @@
-import 'package:quiz_app/question.dart';
+import 'model/answer.dart';
+import 'model/question.dart';
 
 List<Question> fetchQuestions() {
   return  [

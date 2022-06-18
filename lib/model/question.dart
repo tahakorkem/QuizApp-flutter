@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'answer.dart';
 
 class Question {
   final String content;
@@ -14,11 +15,4 @@ class Question {
       this.imageFileName,
       @required this.choices,
       this.isShuffled = true});
-}
-
-class Answer {
-  final String content;
-  final bool isCorrect;
-
-  Answer(this.content, {this.isCorrect = false});
 }
